@@ -4,7 +4,7 @@
     "slug": "weather-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icono.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -12,16 +12,32 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "icon": "./assets/icono.png",
+      "bundleIdentifier": "com.dolly771.weatherapp"
     },
     "android": {
+      "icon": "./assets/clock-hour-4.png",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dolly771.weatherapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "513bdfbc-51c9-4a63-8592-8c3d657dc211",
+    
+        "OPEN_WEATHER_MAP_API_KEY":"f565fa9a1e7a435a96d100047231205",
+        "API_KEY_SEARCH":"4ca984292fdd6213f992613245ad59ca"
+      }
     }
   }
 }

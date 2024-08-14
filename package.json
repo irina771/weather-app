@@ -9,13 +9,26 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~51.0.9",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "axios": "^1.7.2",
+    "babel-plugin-macros": "^3.1.0",
+    "expo": "~51.0.28",
+    "expo-location": "^17.0.1",
     "expo-status-bar": "~1.12.1",
+    "nativewind": "^2.0.11",
+    "postcss": "^8.4.38",
     "react": "18.2.0",
-    "react-native": "0.74.1"
+    "react-native": "0.74.5",
+    "react-native-heroicons": "^4.0.0",
+    "react-native-maps": "1.14.0",
+    "react-native-progress": "^5.0.1",
+    "react-native-svg": "15.2.0",
+    "react-native-tailwindcss": "^1.1.11",
+    "tailwindcss-react-native": "^1.7.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "tailwindcss": "^3.4.3"
   },
   "private": true
 }
